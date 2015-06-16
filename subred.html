@@ -84,6 +84,7 @@
                         
                    }
                  calc_submask(bits_nec,caso);
+                  $('#lb_submask').show();
                  }
                  else{ //obten subredes a partir de hosts
                   console.log("calculando subredes a partir de n hosts");
@@ -108,9 +109,9 @@
                     }
              
                     calc_submask(bits_host,caso);
-
+                     $('#lb_submask').show();
                  }
-               $('#lb_submask').show();
+              
                }
                else{
                 alert("Ha ingresado una ip invalida");
